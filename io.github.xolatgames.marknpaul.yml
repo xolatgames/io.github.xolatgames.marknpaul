@@ -18,5 +18,5 @@ modules:
       - install -Dm644 marknpaul.metainfo.xml /app/share/metainfo/io.github.xolatgames.marknpaul.metainfo.xml
     sources:
       - type: archive
-        url: https://github.com/xolatgames/Mark-versus-Paul/releases/download/flathub/Mark-versus-Paul.tar.gz
-        sha256: 10548718a69c2255722f03c86dcefb0180283df03f6db37effde5b30eedb8b47
+        url: https://github.com/xolatgames/Mark-versus-Paul/releases/download/flathub/Mark-versus-Paul.1.0.1.tar.gz
+        sha256: 2ed45bdd18291098e54098ed256fd102f545c348417f51ee02fee58cea2ee036
