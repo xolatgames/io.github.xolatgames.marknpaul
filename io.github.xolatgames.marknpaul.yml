@@ -2,21 +2,21 @@ app-id: io.github.xolatgames.marknpaul
 runtime: org.freedesktop.Platform
 runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
-command: marknpaul
+command: Mark-versus-Paul.x86_64
 finish-args:
   - --share=ipc
   - --socket=pulseaudio
   - --socket=x11
   - --device=dri
 modules:
-  - name: Mark-and-Paul
+  - name: Mark-versus-Paul
     buildsystem: simple
     build-commands:
-      - install -Dm755 marknpaul.x86_64 /app/bin/marknpaul
-      - install -Dm644 marknpaul.png /app/share/icons/hicolor/512x512/apps/io.github.xolatgames.marknpaul.png
-      - install -Dm644 marknpaul.desktop /app/share/applications/io.github.xolatgames.marknpaul.desktop
-      - install -Dm644 marknpaul.metainfo.xml /app/share/metainfo/io.github.xolatgames.marknpaul.metainfo.xml
+      - install -Dm755 Mark-versus-Paul.x86_64 /app/bin/Mark-versus-Paul.x86_64
+      - install -Dm644 Mark-versus-Paul.png /app/share/icons/hicolor/512x512/apps/io.github.xolatgames.marknpaul.png
+      - install -Dm644 Mark-versus-Paul.desktop /app/share/applications/io.github.xolatgames.marknpaul.desktop
+      - install -Dm644 Mark-versus-Paul.metainfo.xml /app/share/metainfo/io.github.xolatgames.marknpaul.metainfo.xml
     sources:
       - type: archive
-        url: https://github.com/xolatgames/Mark-versus-Paul/releases/download/flathub/Mark-versus-Paul.tar.gz
-        sha256: 8833233510dedf5011f1cfbc1e7962fd9011fb2f919f9b85ac0a8063425d5f97
+        url: https://github.com/xolatgames/Mark-versus-Paul/releases/download/v1.0.1-flathub/Mark-versus-Paul-1.0.1.tar.gz
+        sha256: 15d6421e0f91504ebc8b292231caaaee23465fa4ece2e526bcbc2848017e19ef
