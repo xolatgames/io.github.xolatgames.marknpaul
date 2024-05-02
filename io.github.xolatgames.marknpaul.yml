@@ -2,21 +2,30 @@ app-id: io.github.xolatgames.marknpaul
 runtime: org.freedesktop.Platform
 runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
-command: Mark-versus-Paul.x86_64
+command: marknpaul
 finish-args:
   - --share=ipc
   - --socket=pulseaudio
   - --socket=x11
   - --device=dri
 modules:
-  - name: Mark-versus-Paul
+  - name: marknpaul
     buildsystem: simple
     build-commands:
-      - install -Dm755 Mark-versus-Paul.x86_64 /app/bin/Mark-versus-Paul.x86_64
-      - install -Dm644 Mark-versus-Paul.png /app/share/icons/hicolor/512x512/apps/io.github.xolatgames.marknpaul.png
-      - install -Dm644 Mark-versus-Paul.desktop /app/share/applications/io.github.xolatgames.marknpaul.desktop
-      - install -Dm644 Mark-versus-Paul.metainfo.xml /app/share/metainfo/io.github.xolatgames.marknpaul.metainfo.xml
+      - install -D Mark-versus-Paul.x86_64 /app/bin/marknpaul
+      - install -D Mark-versus-Paul.png /app/share/icons/hicolor/512x512/apps/io.github.xolatgames.marknpaul.png
+      - install -D Mark-versus-Paul.desktop /app/share/applications/io.github.xolatgames.marknpaul.desktop
+      - install -D Mark-versus-Paul.metainfo.xml /app/share/metainfo/io.github.xolatgames.marknpaul.metainfo.xml
     sources:
-      - type: archive
-        url: https://github.com/xolatgames/Mark-versus-Paul/releases/download/v1.0.1-flathub/Mark-versus-Paul-1.0.1.tar.gz
-        sha256: 15d6421e0f91504ebc8b292231caaaee23465fa4ece2e526bcbc2848017e19ef
+      - type: file
+        url: http://xolatgames.ru/marknpaul/Mark-versus-Paul.x86_64
+        sha256: 229821e02fde9dfee687acdc8e83df8b842c374238aa4006c84f3ee83d3a875c
+      - type: file
+        url: http://xolatgames.ru/marknpaul/Mark-versus-Paul.png
+        sha256: 44f66cca5d94133c3bc255ec664d457a0007885d46b31ed9af2507534b47d481
+      - type: file
+        url: http://xolatgames.ru/marknpaul/Mark-versus-Paul.desktop
+        sha256: 2e02915aae35150a0054bd213de457aa39e717d2d77df9261bac6f2251543850
+      - type: file
+        url: http://xolatgames.ru/marknpaul/Mark-versus-Paul.metainfo.xml
+        sha256: f451429c7783a7ea8b3120610fad02a26c5889b7046925e1291d9cbe950e9f8d
