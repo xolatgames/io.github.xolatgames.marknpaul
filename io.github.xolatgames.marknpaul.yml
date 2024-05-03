@@ -28,4 +28,4 @@ modules:
         sha256: 2e02915aae35150a0054bd213de457aa39e717d2d77df9261bac6f2251543850
       - type: file
         url: http://xolatgames.ru/marknpaul/Mark-versus-Paul.metainfo.xml
-        sha256: f451429c7783a7ea8b3120610fad02a26c5889b7046925e1291d9cbe950e9f8d
+        sha256: 419eae7eee3798a09e7ccb21ca1401dd2cbcd27ba26dac21ab5833c59cc84341
