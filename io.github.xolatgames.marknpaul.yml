@@ -1,4 +1,4 @@
-app-id: io.github.xolatgames.marknpaul
+app-id: site.xolatgames.marknpaul
 runtime: org.freedesktop.Platform
 runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
@@ -13,9 +13,9 @@ modules:
     buildsystem: simple
     build-commands:
       - install -D Mark-versus-Paul.x86_64 /app/bin/marknpaul
-      - install -D Mark-versus-Paul.png /app/share/icons/hicolor/512x512/apps/io.github.xolatgames.marknpaul.png
-      - install -D Mark-versus-Paul.desktop /app/share/applications/io.github.xolatgames.marknpaul.desktop
-      - install -D Mark-versus-Paul.metainfo.xml /app/share/metainfo/io.github.xolatgames.marknpaul.metainfo.xml
+      - install -D Mark-versus-Paul.png /app/share/icons/hicolor/512x512/apps/site.xolatgames.marknpaul.png
+      - install -D Mark-versus-Paul.desktop /app/share/applications/site.xolatgames.marknpaul.desktop
+      - install -D Mark-versus-Paul.metainfo.xml /app/share/metainfo/site.xolatgames.marknpaul.metainfo.xml
     sources:
       - type: file
         url: https://xolatgames.ru/marknpaul/v2.0.1/Mark-versus-Paul.x86_64
@@ -25,7 +25,7 @@ modules:
         sha256: 44f66cca5d94133c3bc255ec664d457a0007885d46b31ed9af2507534b47d481
       - type: file
         url: https://xolatgames.ru/marknpaul/v2.0.1/Mark-versus-Paul.desktop
-        sha256: 2e02915aae35150a0054bd213de457aa39e717d2d77df9261bac6f2251543850
+        sha256: 58d6dfef63345cf3ca3477101c851c0b0a8392970aa2af7d9a47f0ac54cf7d12
       - type: file
         url: https://xolatgames.ru/marknpaul/v2.0.1/Mark-versus-Paul.metainfo.xml
-        sha256: 1027c3f5ac013be7888ae4c61a0178a87a612a93d5e3007891348a0a44514da0
+        sha256: 53d18aa1e2498ad1841fb7ed676245163d7dd5a58612e82e716378e43ff785cb
