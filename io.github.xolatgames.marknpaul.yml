@@ -18,14 +18,14 @@ modules:
       - install -D Mark-versus-Paul.metainfo.xml /app/share/metainfo/io.github.xolatgames.marknpaul.metainfo.xml
     sources:
       - type: file
-        url: http://xolatgames.ru/marknpaul/Mark-versus-Paul.x86_64
-        sha256: 229821e02fde9dfee687acdc8e83df8b842c374238aa4006c84f3ee83d3a875c
+        url: https://xolatgames.ru/marknpaul/v2.0.1/Mark-versus-Paul.x86_64
+        sha256: cfde3486f6895d38561c1646c402cd89efa001464269ecf79cc1b4e4efcca0d3
       - type: file
-        url: http://xolatgames.ru/marknpaul/Mark-versus-Paul.png
+        url: https://xolatgames.ru/marknpaul/v2.0.1/Mark-versus-Paul.png
         sha256: 44f66cca5d94133c3bc255ec664d457a0007885d46b31ed9af2507534b47d481
       - type: file
-        url: http://xolatgames.ru/marknpaul/Mark-versus-Paul.desktop
+        url: https://xolatgames.ru/marknpaul/v2.0.1/Mark-versus-Paul.desktop
         sha256: 2e02915aae35150a0054bd213de457aa39e717d2d77df9261bac6f2251543850
       - type: file
-        url: http://xolatgames.ru/marknpaul/Mark-versus-Paul.metainfo.xml
-        sha256: 419eae7eee3798a09e7ccb21ca1401dd2cbcd27ba26dac21ab5833c59cc84341
+        url: https://xolatgames.ru/marknpaul/v2.0.1/Mark-versus-Paul.metainfo.xml
+        sha256: 1027c3f5ac013be7888ae4c61a0178a87a612a93d5e3007891348a0a44514da0
