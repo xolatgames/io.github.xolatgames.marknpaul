@@ -12,7 +12,7 @@ modules:
   - name: marknpaul
     buildsystem: simple
     build-commands:
-      - install -D Mark-versus-Paul.x86_64 /app/bin/marknpaul
+      - install -D marknpaul /app/bin/marknpaul
       - install -D games.xolat.marknpaul.svg /app/share/icons/hicolor/512x512/apps/games.xolat.marknpaul.svg
       - install -D games.xolat.marknpaul.desktop /app/share/applications/games.xolat.marknpaul.desktop
       - install -D games.xolat.marknpaul.metainfo.xml /app/share/metainfo/games.xolat.marknpaul.metainfo.xml
@@ -20,7 +20,7 @@ modules:
       - type: file
         url: https://xolat.games/files/games/fresh/Mark%20versus%20Paul/Mark%20versus%20Paul.x86_64
         sha256: cfde3486f6895d38561c1646c402cd89efa001464269ecf79cc1b4e4efcca0d3
-        dest-filename: Mark-versus-Paul.x86_64
+        dest-filename: marknpaul
       - type: file
         url: https://github.com/xolatgames/io.github.xolatgames.marknpaul/games.xolat.marknpaul.svg
         sha256: 9ee9a94b679f76c66a771c8319eda22a3b754be05f7e911fa25d6b95bb1c2412
