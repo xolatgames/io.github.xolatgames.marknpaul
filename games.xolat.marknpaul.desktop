@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+
+Name=Mark versus Paul
+Comment=The action-arcade game with spells and somersaults!
+Categories=Game;ActionGame;
+
+Icon=marknpaul
+Exec=marknpaul
+Terminal=false

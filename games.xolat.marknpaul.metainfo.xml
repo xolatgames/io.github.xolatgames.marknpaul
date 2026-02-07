@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>games.xolat.marknpaul</id>
+
+  <name>Mark versus Paul</name>
+  <summary>The action-arcade game with spells and somersaults!</summary>
+
+  <developer id="games.xolat">
+    <name>xolatgames</name>
+  </developer>
+
+  <categories>
+    <category>Game</category>
+  </categories>
+
+  <keywords>
+    <keyword>Action</keyword>
+    <keyword>2D</keyword>
+  </keywords>
+
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>Proprietary</project_license>
+
+  <description>
+    <p>
+      This is a game where you play as the Wizard and can do many spells! You need to go through eight locations, dodges from enemies and them bullets, fast changes between spells and also have understanding which spell you need to use now. And Finally! Get fight with the Final Boss!
+    </p>
+  </description>
+
+  <launchable type="desktop-id">games.xolat.marknpaul.desktop</launchable>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://xolat.games/assets/images/games/fresh/MnP/1.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://xolat.games/assets/images/games/fresh/MnP/2.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://xolat.games/assets/images/games/fresh/MnP/3.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://xolat.games/assets/images/games/fresh/MnP/4.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://xolat.games/assets/images/games/fresh/MnP/5.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://xolat.games/assets/images/games/fresh/MnP/6.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://xolat.games/assets/images/games/fresh/MnP/7.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://xolat.games/assets/images/games/fresh/MnP/8.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://xolat.games/assets/images/games/fresh/MnP/9.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://xolat.games/assets/images/games/fresh/MnP/10.png</image>
+    </screenshot>
+  </screenshots>
+
+  <releases>
+    <release version="1.0.1" date="2026-02-07">
+        <url type="details">https://example.org/changelog.html#version_1.0.1</url>
+        <description>
+        <p>Release description</p>
+            <ul>
+            <li>List of changes</li>
+            <li>List of changes</li>
+            </ul>
+        </description>
+    </release>
+  </releases>
+
+    <replaces>
+      <id>io.github.xolatgames.marknpaul</id>
+    </replaces>
+</component>
