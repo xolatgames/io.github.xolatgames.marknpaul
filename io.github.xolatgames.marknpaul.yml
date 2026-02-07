@@ -1,4 +1,4 @@
-id: games.xolat.marknpaul
+id: io.github.xolatgames.marknpaul
 runtime: org.freedesktop.Platform
 runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
