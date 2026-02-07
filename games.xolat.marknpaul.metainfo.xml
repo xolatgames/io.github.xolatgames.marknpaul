@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>games.xolat.marknpaul</id>
+  <id>io.github.xolatgames.marknpaul</id>
 
   <name>Mark versus Paul</name>
   <summary>The action-arcade game with spells and somersaults!</summary>
@@ -75,8 +75,4 @@
   </content_rating>
 
   <url type="homepage">https://xolat.games</url>
-
-  <replaces>
-    <id>io.github.xolatgames.marknpaul</id>
-  </replaces>
 </component>
