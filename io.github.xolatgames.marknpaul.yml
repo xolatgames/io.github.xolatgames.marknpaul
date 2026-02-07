@@ -31,4 +31,4 @@ modules:
         sha256: 7485cac93213dd09d0ca6ce47d12be3919ef6239da9fa6e15b277d3c2e3ac7e8
       - type: file
         url: https://raw.githubusercontent.com/xolatgames/io.github.xolatgames.marknpaul/refs/heads/master/games.xolat.marknpaul.metainfo.xml
-        sha256: 1c7310f4508472e961b033f7d0e34b211629a9fdd41436de97d4d407f0bf7dbc
+        sha256: b7a41523e7dbbd48e5c703126e01e45244bad504eb81e374be24069b01fd6067
