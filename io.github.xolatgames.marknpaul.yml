@@ -15,7 +15,7 @@ modules:
     buildsystem: simple
     build-commands:
       - install -D marknpaul /app/bin/marknpaul
-      - install -D io.github.xolatgames.marknpaul.svg /app/share/icons/hicolor/512x512/apps/io.github.xolatgames.marknpaul.svg
+      - install -D io.github.xolatgames.marknpaul.svg /app/share/icons/hicolor/scalable/apps/io.github.xolatgames.marknpaul.svg
       - install -D io.github.xolatgames.marknpaul.desktop /app/share/applications/io.github.xolatgames.marknpaul.desktop
       - install -D io.github.xolatgames.marknpaul.metainfo.xml /app/share/metainfo/io.github.xolatgames.marknpaul.metainfo.xml
     sources:
