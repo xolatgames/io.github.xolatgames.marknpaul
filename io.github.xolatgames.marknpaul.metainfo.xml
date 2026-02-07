@@ -27,7 +27,7 @@
     </p>
   </description>
 
-  <launchable type="desktop-id">games.xolat.marknpaul.desktop</launchable>
+  <launchable type="desktop-id">io.github.xolatgames.marknpaul.desktop</launchable>
   <screenshots>
     <screenshot type="default">
       <image>https://xolat.games/assets/images/games/fresh/MnP/1.png</image>

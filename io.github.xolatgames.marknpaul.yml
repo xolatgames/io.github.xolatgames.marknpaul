@@ -15,8 +15,8 @@ modules:
     buildsystem: simple
     build-commands:
       - install -D marknpaul /app/bin/marknpaul
-      - install -D games.xolat.marknpaul.svg /app/share/icons/hicolor/512x512/apps/games.xolat.marknpaul.svg
-      - install -D games.xolat.marknpaul.desktop /app/share/applications/games.xolat.marknpaul.desktop
+      - install -D io.github.xolatgames.marknpaul.svg /app/share/icons/hicolor/512x512/apps/io.github.xolatgames.marknpaul.svg
+      - install -D io.github.xolatgames.marknpaul.desktop /app/share/applications/io.github.xolatgames.marknpaul.desktop
       - install -D io.github.xolatgames.marknpaul.metainfo.xml /app/share/metainfo/io.github.xolatgames.marknpaul.metainfo.xml
     sources:
       - type: file
@@ -24,11 +24,11 @@ modules:
         sha256: cfde3486f6895d38561c1646c402cd89efa001464269ecf79cc1b4e4efcca0d3
         dest-filename: marknpaul
       - type: file
-        url: https://raw.githubusercontent.com/xolatgames/io.github.xolatgames.marknpaul/refs/heads/master/games.xolat.marknpaul.svg
+        url: https://raw.githubusercontent.com/xolatgames/io.github.xolatgames.marknpaul/refs/heads/master/io.github.xolatgames.marknpaul.svg
         sha256: 9ee9a94b679f76c66a771c8319eda22a3b754be05f7e911fa25d6b95bb1c2412
       - type: file
-        url: https://raw.githubusercontent.com/xolatgames/io.github.xolatgames.marknpaul/refs/heads/master/games.xolat.marknpaul.desktop
-        sha256: 7485cac93213dd09d0ca6ce47d12be3919ef6239da9fa6e15b277d3c2e3ac7e8
+        url: https://raw.githubusercontent.com/xolatgames/io.github.xolatgames.marknpaul/refs/heads/master/io.github.xolatgames.marknpaul.desktop
+        sha256: 7f8ed637a39fa7da78c0546cde543076b6120924e65fca001ee60a351920bb45
       - type: file
         url: https://raw.githubusercontent.com/xolatgames/io.github.xolatgames.marknpaul/refs/heads/master/io.github.xolatgames.marknpaul.metainfo.xml
-        sha256: 1d0d63e80b1732dfcaf92fd51d1d29a27d7e8c57e35a1cabc171ba21662b0f00
+        sha256: fcbd149c75ea498d1bad4037a45452e9a63903a91b12b2277b0a42917b38a94c
