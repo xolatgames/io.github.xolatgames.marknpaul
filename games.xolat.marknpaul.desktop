@@ -6,6 +6,6 @@ Name=Mark versus Paul
 Comment=The action-arcade game with spells and somersaults!
 Categories=Game;ActionGame;
 
-Icon=marknpaul
+Icon=games.xolat.marknpaul.svg
 Exec=marknpaul
 Terminal=false

@@ -1,13 +1,15 @@
-app-id: games.xolat.marknpaul
+id: games.xolat.marknpaul
 runtime: org.freedesktop.Platform
 runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
 command: marknpaul
+
 finish-args:
   - --share=ipc
   - --socket=pulseaudio
   - --socket=x11
   - --device=dri
+
 modules:
   - name: marknpaul
     buildsystem: simple
@@ -22,11 +24,11 @@ modules:
         sha256: cfde3486f6895d38561c1646c402cd89efa001464269ecf79cc1b4e4efcca0d3
         dest-filename: marknpaul
       - type: file
-        url: https://github.com/xolatgames/io.github.xolatgames.marknpaul/games.xolat.marknpaul.svg
+        url: https://raw.githubusercontent.com/xolatgames/io.github.xolatgames.marknpaul/refs/heads/master/games.xolat.marknpaul.svg
         sha256: 9ee9a94b679f76c66a771c8319eda22a3b754be05f7e911fa25d6b95bb1c2412
       - type: file
-        url: https://github.com/xolatgames/io.github.xolatgames.marknpaul/games.xolat.marknpaul.desktop
-        sha256: 44db07748f9689fa5f1b61f9b59bd3f63a6831772cf807ac080ef18714fc7fb3
+        url: https://raw.githubusercontent.com/xolatgames/io.github.xolatgames.marknpaul/refs/heads/master/games.xolat.marknpaul.desktop
+        sha256: 7485cac93213dd09d0ca6ce47d12be3919ef6239da9fa6e15b277d3c2e3ac7e8
       - type: file
-        url: https://github.com/xolatgames/io.github.xolatgames.marknpaul/games.xolat.marknpaul.metainfo.xml
-        sha256: 4edf37fed3faf49d2bbc56b70773923bedc1710646d9a7ee26b7805d94f71127
+        url: https://raw.githubusercontent.com/xolatgames/io.github.xolatgames.marknpaul/refs/heads/master/games.xolat.marknpaul.metainfo.xml
+        sha256: 1c7310f4508472e961b033f7d0e34b211629a9fdd41436de97d4d407f0bf7dbc
