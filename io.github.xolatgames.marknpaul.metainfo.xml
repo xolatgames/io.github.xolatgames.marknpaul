@@ -23,8 +23,15 @@
 
   <description>
     <p>
-      This is a game where you play as the Wizard and can do many spells! You need to go through eight locations, dodges from enemies and them bullets, fast changes between spells and also have understanding which spell you need to use now. And Finally! Get fight with the Final Boss!
+      This is a game where you play as the Wizard and can do many spells! You need to go through eight locations, dodges from enemies and them bullets, fast changes between spells and also have understanding which spell you need to use now. And Finally! Get the fight with the Final Boss!
     </p>
+    <p>
+      Features:
+    </p>
+    <li>Use any of the eight spells!</li>
+    <li>Do some somersaults and dodge out from enemies and them bullets!</li>
+    <li>A lot of locations with different events!</li>
+    <li>Get fighting with the game's Final Boss!</li>
   </description>
 
   <launchable type="desktop-id">io.github.xolatgames.marknpaul.desktop</launchable>
