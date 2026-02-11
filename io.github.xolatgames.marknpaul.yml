@@ -1,6 +1,6 @@
-id: io.github.xolatgames.marknpaul
+app-id: io.github.xolatgames.marknpaul
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 command: marknpaul
 
@@ -14,21 +14,21 @@ modules:
   - name: marknpaul
     buildsystem: simple
     build-commands:
-      - install -D marknpaul /app/bin/marknpaul
-      - install -D io.github.xolatgames.marknpaul.svg /app/share/icons/hicolor/scalable/apps/io.github.xolatgames.marknpaul.svg
-      - install -D io.github.xolatgames.marknpaul.desktop /app/share/applications/io.github.xolatgames.marknpaul.desktop
-      - install -D io.github.xolatgames.marknpaul.metainfo.xml /app/share/metainfo/io.github.xolatgames.marknpaul.metainfo.xml
+      - install -Dm 755 marknpaul -t /app/bin/
+      - install -Dm 644 io.github.xolatgames.marknpaul.svg -t /app/share/icons/hicolor/scalable/apps/
+      - install -Dm 644 io.github.xolatgames.marknpaul.desktop -t /app/share/applications/
+      - install -Dm 644 io.github.xolatgames.marknpaul.metainfo.xml -t /app/share/metainfo/
     sources:
       - type: file
         url: https://xolat.games/files/games/fresh/Mark%20versus%20Paul/Mark%20versus%20Paul.x86_64
         sha256: cfde3486f6895d38561c1646c402cd89efa001464269ecf79cc1b4e4efcca0d3
         dest-filename: marknpaul
       - type: file
-        url: https://raw.githubusercontent.com/xolatgames/io.github.xolatgames.marknpaul/refs/heads/master/io.github.xolatgames.marknpaul.svg
-        sha256: 9ee9a94b679f76c66a771c8319eda22a3b754be05f7e911fa25d6b95bb1c2412
+        url: https://xolat.games/files/misc/marknpaul/v1.0.1/io.github.xolatgames.marknpaul.svg
+        sha256: ab186d91ab55e638917807521b9c5935edaf48c1706de7ae638f5385bc82ebf0
       - type: file
-        url: https://raw.githubusercontent.com/xolatgames/io.github.xolatgames.marknpaul/refs/heads/master/io.github.xolatgames.marknpaul.desktop
+        url: https://xolat.games/files/misc/marknpaul/v1.0.1/io.github.xolatgames.marknpaul.desktop
         sha256: 7f8ed637a39fa7da78c0546cde543076b6120924e65fca001ee60a351920bb45
       - type: file
-        url: https://raw.githubusercontent.com/xolatgames/io.github.xolatgames.marknpaul/refs/heads/master/io.github.xolatgames.marknpaul.metainfo.xml
-        sha256: fcbd149c75ea498d1bad4037a45452e9a63903a91b12b2277b0a42917b38a94c
+        url: https://xolat.games/files/misc/marknpaul/v1.0.1/io.github.xolatgames.marknpaul.metainfo.xml
+        sha256: a99fffa4a03b0126ce915c7c3b585df76cf50933f3d049d3831202094bbcce9f
