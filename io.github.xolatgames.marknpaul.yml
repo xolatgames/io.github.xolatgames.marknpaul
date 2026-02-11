@@ -14,10 +14,6 @@ modules:
   - name: marknpaul
     buildsystem: simple
     build-commands:
-      - mkdir -p /app/bin/
-      - mkdir -p /app/share/icons/hicolor/scalable/apps/
-      - mkdir -p /app/share/applications/
-      - mkdir -p /app/share/metainfo/
       - install -Dm 755 marknpaul /app/bin/
       - install -Dm 644 io.github.xolatgames.marknpaul.svg /app/share/icons/hicolor/scalable/apps/
       - install -Dm 644 io.github.xolatgames.marknpaul.desktop /app/share/applications/
