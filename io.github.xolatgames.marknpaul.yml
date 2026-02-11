@@ -1,6 +1,6 @@
 id: io.github.xolatgames.marknpaul
 runtime: org.freedesktop.Platform
-runtime-version: '24.08'
+runtime-version: "24.08"
 sdk: org.freedesktop.Sdk
 command: marknpaul
 
@@ -31,4 +31,4 @@ modules:
         sha256: 7f8ed637a39fa7da78c0546cde543076b6120924e65fca001ee60a351920bb45
       - type: file
         url: https://raw.githubusercontent.com/xolatgames/io.github.xolatgames.marknpaul/refs/heads/master/io.github.xolatgames.marknpaul.metainfo.xml
-        sha256: f0e0b176dbbdbab51079dbdae5d3b239e3db5be38ac48d8b73bb8aa7bc5f2690
+        sha256: 87e3894dbaedf69c4928566d6c150b91c8ae120832252a3bd4ef81bc445a8437
