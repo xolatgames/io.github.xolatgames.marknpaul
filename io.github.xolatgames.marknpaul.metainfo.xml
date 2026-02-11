@@ -2,8 +2,8 @@
 <component type="desktop-application">
   <id>io.github.xolatgames.marknpaul</id>
 
-  <name>Mark versus Paul</name>
-  <summary>The action-arcade game with spells and somersaults!</summary>
+  <name>Mark versus Paul!</name>
+  <summary>Casts spells and do somersaults!</summary>
 
   <developer id="io.github.xolatgames">
     <name>xolatgames</name>
@@ -23,15 +23,15 @@
 
   <description>
     <p>
-      This is a game where you play as the Wizard and can do many spells! You need to go through eight locations, dodges from enemies and them bullets, fast changes between spells and also have understanding which spell you need to use now. And Finally! Get the fight with the Final Boss!
+      This is a game where you will play as the wizard who can spell! You will need to go through eight locations, dodge from enemies and them bullets, switch fast between spells and also have understanding which spell do you need to use now. And Finally! Get the fight with the final boss!
     </p>
     <p>
       Features:
     </p>
-    <li>Use any of the eight spells!</li>
-    <li>Do some somersaults and dodge out from enemies and them bullets!</li>
-    <li>A lot of locations with different events!</li>
-    <li>Get fighting with the game's Final Boss!</li>
+    <li>Use any of the eight spells</li>
+    <li>Do somersaults and dodge out from enemies and them bullets</li>
+    <li>A lot of locations with different events</li>
+    <li>Get fighting with the game's final boss</li>
   </description>
 
   <launchable type="desktop-id">io.github.xolatgames.marknpaul.desktop</launchable>
@@ -82,4 +82,11 @@
   </content_rating>
 
   <url type="homepage">https://xolat.games</url>
+
+  <branding>
+    <color type="primary" scheme_preference="light">#d5e5ff</color>
+    <color type="primary" scheme_preference="dark">0044aa</color>
+  </branding>
+
+  <icon type="remote">https://raw.githubusercontent.com/xolatgames/io.github.xolatgames.marknpaul/refs/heads/master/io.github.xolatgames.marknpaul.png</icon>
 </component>
