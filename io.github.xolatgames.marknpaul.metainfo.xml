@@ -2,8 +2,8 @@
 <component type="desktop-application">
   <id>io.github.xolatgames.marknpaul</id>
 
-  <name>Mark versus Paul!</name>
-  <summary>Casts spells and do somersaults!</summary>
+  <name>Mark versus Paul</name>
+  <summary>Casts spells and do somersaults</summary>
 
   <developer id="io.github.xolatgames">
     <name>xolatgames</name>
@@ -23,7 +23,7 @@
 
   <description>
     <p>
-      This is a game where you will play as the wizard who can spell! You will need to go through eight locations, dodge from enemies and them bullets, switch fast between spells and also have understanding which spell do you need to use now. And Finally! Get the fight with the final boss!
+      This is a game where you will play as the wizard who can spell! You will need to go through eight locations, dodge from enemies and them bullets, switch fast between spells and also have understanding which spell do you need to use now. And Finally! Get the fight with the final boss.
     </p>
     <p>
       Features:
@@ -71,7 +71,7 @@
   <releases>
     <release version="1.0.1" date="2026-02-07">
         <description>
-        <p>Fixed the bug with the magic shield that doesn't let you to pass the game.'</p>
+          <p>Fixed the bug with the magic shield that doesn't let you to pass the game.'</p>
         </description>
     </release>
   </releases>
@@ -85,7 +85,7 @@
 
   <branding>
     <color type="primary" scheme_preference="light">#d5e5ff</color>
-    <color type="primary" scheme_preference="dark">0044aa</color>
+    <color type="primary" scheme_preference="dark">#0044aa</color>
   </branding>
 
   <icon type="remote">https://raw.githubusercontent.com/xolatgames/io.github.xolatgames.marknpaul/refs/heads/master/io.github.xolatgames.marknpaul.png</icon>
