@@ -28,10 +28,12 @@
     <p>
       Features:
     </p>
-    <li>Use any of the eight spells</li>
-    <li>Do somersaults and dodge out from enemies and them bullets</li>
-    <li>A lot of locations with different events</li>
-    <li>Get fighting with the game's final boss</li>
+    <ul>
+      <li>Use any of the eight spells</li>
+      <li>Do somersaults and dodge out from enemies and them bullets</li>
+      <li>A lot of locations with different events</li>
+      <li>Get fighting with the game's final boss</li>
+    </ul>
   </description>
 
   <launchable type="desktop-id">io.github.xolatgames.marknpaul.desktop</launchable>
