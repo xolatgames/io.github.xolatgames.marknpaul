@@ -1,6 +1,6 @@
-id: io.github.xolatgames.marknpaul
+app-id: io.github.xolatgames.marknpaul
 runtime: org.freedesktop.Platform
-runtime-version: "24.08"
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 command: marknpaul
 
@@ -14,10 +14,10 @@ modules:
   - name: marknpaul
     buildsystem: simple
     build-commands:
-      - install -D marknpaul /app/bin/marknpaul
-      - install -D io.github.xolatgames.marknpaul.svg /app/share/icons/hicolor/scalable/apps/io.github.xolatgames.marknpaul.svg
-      - install -D io.github.xolatgames.marknpaul.desktop /app/share/applications/io.github.xolatgames.marknpaul.desktop
-      - install -D io.github.xolatgames.marknpaul.metainfo.xml /app/share/metainfo/io.github.xolatgames.marknpaul.metainfo.xml
+      - install -Dm 755 marknpaul /app/bin/
+      - install -Dm 644 io.github.xolatgames.marknpaul.svg /app/share/icons/hicolor/scalable/apps/
+      - install -Dm 644 io.github.xolatgames.marknpaul.desktop /app/share/applications/
+      - install -Dm 644 io.github.xolatgames.marknpaul.metainfo.xml /app/share/metainfo/
     sources:
       - type: file
         url: https://xolat.games/files/games/fresh/Mark%20versus%20Paul/Mark%20versus%20Paul.x86_64
@@ -26,9 +26,12 @@ modules:
       - type: file
         url: https://raw.githubusercontent.com/xolatgames/io.github.xolatgames.marknpaul/refs/heads/master/io.github.xolatgames.marknpaul.svg
         sha256: d0cdaaa8c6c370e5eea939a90baadf7fcc2a4db7d9f9fb4b89fc80e94756b788
+        dest-filename: io.github.xolatgames.marknpaul.svg
       - type: file
         url: https://raw.githubusercontent.com/xolatgames/io.github.xolatgames.marknpaul/refs/heads/master/io.github.xolatgames.marknpaul.desktop
         sha256: 7f8ed637a39fa7da78c0546cde543076b6120924e65fca001ee60a351920bb45
+        dest-filename: io.github.xolatgames.marknpaul.desktop
       - type: file
         url: https://raw.githubusercontent.com/xolatgames/io.github.xolatgames.marknpaul/refs/heads/master/io.github.xolatgames.marknpaul.metainfo.xml
         sha256: 87e3894dbaedf69c4928566d6c150b91c8ae120832252a3bd4ef81bc445a8437
+        dest-filename: io.github.xolatgames.marknpaul.metainfo.xml
