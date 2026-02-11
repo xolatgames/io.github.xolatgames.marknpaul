@@ -14,10 +14,10 @@ modules:
   - name: marknpaul
     buildsystem: simple
     build-commands:
-      - install -Dm 755 marknpaul /app/bin/
-      - install -Dm 644 io.github.xolatgames.marknpaul.svg /app/share/icons/hicolor/scalable/apps/
-      - install -Dm 644 io.github.xolatgames.marknpaul.desktop /app/share/applications/
-      - install -Dm 644 io.github.xolatgames.marknpaul.metainfo.xml /app/share/metainfo/
+      - install -Dm 755 marknpaul -t /app/bin/
+      - install -Dm 644 io.github.xolatgames.marknpaul.svg -t /app/share/icons/hicolor/scalable/apps/
+      - install -Dm 644 io.github.xolatgames.marknpaul.desktop -t /app/share/applications/
+      - install -Dm 644 io.github.xolatgames.marknpaul.metainfo.xml -t /app/share/metainfo/
     sources:
       - type: file
         url: https://xolat.games/files/games/fresh/Mark%20versus%20Paul/Mark%20versus%20Paul.x86_64
