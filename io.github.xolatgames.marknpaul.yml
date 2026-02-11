@@ -33,5 +33,5 @@ modules:
         dest-filename: io.github.xolatgames.marknpaul.desktop
       - type: file
         url: https://raw.githubusercontent.com/xolatgames/io.github.xolatgames.marknpaul/refs/heads/master/io.github.xolatgames.marknpaul.metainfo.xml
-        sha256: 87e3894dbaedf69c4928566d6c150b91c8ae120832252a3bd4ef81bc445a8437
+        sha256: c508655e96bc7186dc70634ee636e9c49e1df131a2a42a84c955675b6f7aef5c
         dest-filename: io.github.xolatgames.marknpaul.metainfo.xml
