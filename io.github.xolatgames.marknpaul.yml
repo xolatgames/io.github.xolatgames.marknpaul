@@ -26,12 +26,9 @@ modules:
       - type: file
         url: https://raw.githubusercontent.com/xolatgames/io.github.xolatgames.marknpaul/refs/heads/master/io.github.xolatgames.marknpaul.svg
         sha256: d0cdaaa8c6c370e5eea939a90baadf7fcc2a4db7d9f9fb4b89fc80e94756b788
-        dest-filename: io.github.xolatgames.marknpaul.svg
       - type: file
         url: https://raw.githubusercontent.com/xolatgames/io.github.xolatgames.marknpaul/refs/heads/master/io.github.xolatgames.marknpaul.desktop
         sha256: 7f8ed637a39fa7da78c0546cde543076b6120924e65fca001ee60a351920bb45
-        dest-filename: io.github.xolatgames.marknpaul.desktop
       - type: file
         url: https://raw.githubusercontent.com/xolatgames/io.github.xolatgames.marknpaul/refs/heads/master/io.github.xolatgames.marknpaul.metainfo.xml
         sha256: a99fffa4a03b0126ce915c7c3b585df76cf50933f3d049d3831202094bbcce9f
-        dest-filename: io.github.xolatgames.marknpaul.metainfo.xml
