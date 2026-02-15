@@ -31,4 +31,4 @@ modules:
         sha256: 7f8ed637a39fa7da78c0546cde543076b6120924e65fca001ee60a351920bb45
       - type: file
         url: https://xolat.games/files/misc/marknpaul/v1.0.1/io.github.xolatgames.marknpaul.metainfo.xml
-        sha256: a99fffa4a03b0126ce915c7c3b585df76cf50933f3d049d3831202094bbcce9f
+        sha256: 1164419917d93a48bff92958f31614aa43a8a3dd2403751a866e874e68f572f0
