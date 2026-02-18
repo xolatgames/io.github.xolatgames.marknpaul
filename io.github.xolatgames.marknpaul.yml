@@ -25,10 +25,10 @@ modules:
         dest-filename: marknpaul
       - type: file
         url: https://xolat.games/files/misc/marknpaul/v2.0.1/io.github.xolatgames.marknpaul.svg
-        sha256: ab186d91ab55e638917807521b9c5935edaf48c1706de7ae638f5385bc82ebf0
+        sha256: 17360ca2720a4f2b6596e7154637d7744990c1b20bc8bfb187cc44a8a88c7d56
       - type: file
         url: https://xolat.games/files/misc/marknpaul/v2.0.1/io.github.xolatgames.marknpaul.desktop
         sha256: 7f8ed637a39fa7da78c0546cde543076b6120924e65fca001ee60a351920bb45
       - type: file
         url: https://xolat.games/files/misc/marknpaul/v2.0.1/io.github.xolatgames.marknpaul.metainfo.xml
-        sha256: 350728c29a8bd32c0bccf71b9d0667a2de1b088ce565bdbc2e15166bc970e1a2
+        sha256: f92ff8235f7bf916b93dfa168e6f28dd06a4210614abf58f95abc0c48b54a6d2
